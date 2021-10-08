@@ -1,0 +1,9 @@
+a = float(input("Введите любое число: "))
+if a % 5 == 0 and a % 7 == 0:
+    print("11")
+elif a % 5 == 0 and a % 7 != 0:
+    print("01")
+elif a % 5 != 0 and a % 7 == 0:
+    print("10")
+else:
+    print("00")
